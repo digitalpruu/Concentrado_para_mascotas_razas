@@ -74,13 +74,23 @@ main .about-us .about-us-img img {
 }
 main .contact {
   border-top: 1px solid black;
-  padding: 40px 40px;
+  padding: 60px 40px;
+  display: flex;
 }
-main .contact p {
+main .contact .contact-image {
+  width: 50%;
+}
+main .contact .contact-image img {
+  width: 40vw;
+}
+main .contact .contact-title {
+  width: 50%;
+}
+main .contact .contact-title p {
   font-size: 2rem;
   padding: 30px 0;
 }
-main .contact a button {
+main .contact .contact-title a button {
   width: 300px;
 }
 

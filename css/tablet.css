@@ -22,7 +22,17 @@ main .about-us .about-us-img img {
   width: 80vw;
   border-radius: 8px;
 }
-main .contact a button {
+main .contact .contact-image img {
+  width: 80vw;
+  border-radius: 8px;
+}
+main .contact .contact-title h2 {
+  padding-top: 30px;
+}
+main .contact .contact-title p {
+  padding: 20px 30px;
+}
+main .contact .contact-title a button {
   width: 300px;
   height: 60px;
 }

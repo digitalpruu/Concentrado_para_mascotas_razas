@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 html{
     font-size: 62.5%;
@@ -115,7 +115,7 @@ main{
 
     .about-us{
         border-top: 1px solid black;
-        padding-top: 60px;
+        padding: 60px 0;
         .about-us-text{
             text-align: center;
             padding-bottom: 20px;
@@ -138,31 +138,39 @@ main{
     }
 
     .contact{
-        padding: 40px 0;
+        padding: 60px 0;
         text-align: center;
-        h2{
-            font-size: 3rem;
-            font-weight: bold;
+        border-top: 1px solid black;
+        .contact-image{
+            img{
+                width: 100vw;
+            }
         }
-        p{
-            font-size: 1.8rem;
-            padding: 30px 5px;
-            font-weight: 500;
-        }
-        a{
-            button{
+        .contact-title{
+            h2{
+                font-size: 3rem;
                 font-weight: bold;
-                background: rgb(0, 197, 30);
-                border-style: none;
-                font-size: 2rem;
-                padding: 10px 20px;
-                color: white;
-                border-radius: 4px;
-                width: 80vw;
-                height: auto;
-                &:hover{
-                    background: rgb(0, 142, 21);
-                    transform: scale(1.1);  
+            }
+            p{
+                font-size: 1.8rem;
+                padding: 30px 5px;
+                font-weight: 500;
+            }
+            a{
+                button{
+                    font-weight: bold;
+                    background: rgb(0, 197, 30);
+                    border-style: none;
+                    font-size: 2rem;
+                    padding: 10px 20px;
+                    color: white;
+                    border-radius: 4px;
+                    width: 80vw;
+                    height: auto;
+                    &:hover{
+                        background: rgb(0, 142, 21);
+                        transform: scale(1.1);  
+                    }
                 }
             }
         }

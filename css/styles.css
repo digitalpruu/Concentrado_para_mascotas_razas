@@ -108,7 +108,7 @@ main .product .product-section .product-card h3 {
 }
 main .about-us {
   border-top: 1px solid black;
-  padding-top: 60px;
+  padding: 60px 0;
 }
 main .about-us .about-us-text {
   text-align: center;
@@ -129,19 +129,23 @@ main .about-us .about-us-img img {
      object-fit: cover;
 }
 main .contact {
-  padding: 40px 0;
+  padding: 60px 0;
   text-align: center;
+  border-top: 1px solid black;
 }
-main .contact h2 {
+main .contact .contact-image img {
+  width: 100vw;
+}
+main .contact .contact-title h2 {
   font-size: 3rem;
   font-weight: bold;
 }
-main .contact p {
+main .contact .contact-title p {
   font-size: 1.8rem;
   padding: 30px 5px;
   font-weight: 500;
 }
-main .contact a button {
+main .contact .contact-title a button {
   font-weight: bold;
   background: rgb(0, 197, 30);
   border-style: none;
@@ -152,7 +156,7 @@ main .contact a button {
   width: 80vw;
   height: auto;
 }
-main .contact a button:hover {
+main .contact .contact-title a button:hover {
   background: rgb(0, 142, 21);
   transform: scale(1.1);
 }
