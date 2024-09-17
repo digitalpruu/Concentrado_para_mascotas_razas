@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -36,6 +36,10 @@ html {
   color: white;
   text-decoration: none;
   font-weight: 700;
+}
+.nav-container nav .menu ul li a:hover {
+  color: #4CB5B0;
+  transform: scale(1.1);
 }
 
 main {
@@ -105,6 +109,19 @@ main .product .product-section .product-card h3 {
   text-align: start;
   font-weight: 500;
   font-size: 1.5rem;
+}
+main .catalogue {
+  border-top: 1px solid black;
+  padding: 60px 0;
+  text-align: center;
+}
+main .catalogue h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+main .catalogue img {
+  width: 100%;
 }
 main .about-us {
   border-top: 1px solid black;

@@ -71,6 +71,14 @@ main{
         }
     }
 
+    .catalogue{
+        .catalogue-image{
+            img{
+                width: 50vw;
+            }
+        }
+    }
+
     .about-us{
         padding: 90px 5px;
         display: flex;

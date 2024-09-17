@@ -51,6 +51,9 @@ main .product .product-section .product-card .image-product img {
 main .product .product-section .product-card h3 {
   font-size: 2rem;
 }
+main .catalogue .catalogue-image img {
+  width: 50vw;
+}
 main .about-us {
   padding: 90px 5px;
   display: flex;
